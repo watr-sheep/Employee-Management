@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement", "EmployeeManagement\EmployeeManagement.csproj", "{38DE8DA7-DF21-474A-A0A5-6DB113FD57F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement", "EmployeeManagement\EmployeeManagement.csproj", "{B41C0C83-A014-427E-91D4-EC7DE00AB78F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{38DE8DA7-DF21-474A-A0A5-6DB113FD57F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{38DE8DA7-DF21-474A-A0A5-6DB113FD57F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{38DE8DA7-DF21-474A-A0A5-6DB113FD57F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{38DE8DA7-DF21-474A-A0A5-6DB113FD57F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B41C0C83-A014-427E-91D4-EC7DE00AB78F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B41C0C83-A014-427E-91D4-EC7DE00AB78F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B41C0C83-A014-427E-91D4-EC7DE00AB78F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B41C0C83-A014-427E-91D4-EC7DE00AB78F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {7332DB03-12D5-43B1-86AE-CD92FC1AB6B7}
+		SolutionGuid = {4EE86750-A086-4C78-A89A-ED072F82166B}
 	EndGlobalSection
 EndGlobal
