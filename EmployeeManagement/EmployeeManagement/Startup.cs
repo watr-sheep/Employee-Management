@@ -32,16 +32,18 @@ namespace EmployeeManagement
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                DeveloperExceptionPageOptions developerExceptionPageOptions = new DeveloperExceptionPageOptions()
+                {
+                    SourceCodeLineCount = 1
+                };
+                app.UseDeveloperExceptionPage(developerExceptionPageOptions);
             }
-            FileServerOptions fileServerOptions = new FileServerOptions();
-            fileServerOptions.DefaultFilesOptions.DefaultFileNames.Clear();
-            fileServerOptions.DefaultFilesOptions.DefaultFileNames.Add("foo.html");
-
-            app.UseFileServer(fileServerOptions);
+            
+            app.UseFileServer();
 
             app.Run(async (context) =>
             {
+                throw new Exception("Some error processing the request");
                 await context.Response.WriteAsync("Hello World");
             });
         }
