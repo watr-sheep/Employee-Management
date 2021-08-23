@@ -20,7 +20,7 @@ namespace EmployeeManagement.Models
         }
         public Employee GetEmployee(int Id)
         {
-            throw new NotImplementedException();
+            return _employeeList.FirstOrDefault(e => e.Id == Id);
         }
     }
 }
