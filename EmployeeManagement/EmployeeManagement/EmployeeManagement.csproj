@@ -8,8 +8,4 @@
     <Content Remove="wwwroot\edit.jpeg" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\css\" />
-  </ItemGroup>
-
 </Project>
