@@ -53,6 +53,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.9, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.14.0, )"
             }
           },
           "imports": [

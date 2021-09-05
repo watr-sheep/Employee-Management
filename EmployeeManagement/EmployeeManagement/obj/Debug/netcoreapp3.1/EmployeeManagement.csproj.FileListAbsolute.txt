@@ -81,3 +81,7 @@ C:\Users\sandu\OneDrive\Desktop\Sandun\Sample Work\Employee-Management\EmployeeM
 C:\Users\sandu\OneDrive\Desktop\Sandun\Sample Work\Employee-Management\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\EmployeeNotFound.cshtml.g.cs
 C:\Users\sandu\OneDrive\Desktop\Sandun\Sample Work\Employee-Management\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Shared\NotFound.cshtml.g.cs
 C:\Users\sandu\OneDrive\Desktop\Sandun\Sample Work\Employee-Management\EmployeeManagement\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\sandu\OneDrive\Desktop\Sandun\Sample Work\Employee-Management\EmployeeManagement\EmployeeManagement\bin\Debug\netcoreapp3.1\nlog.config
+C:\Users\sandu\OneDrive\Desktop\Sandun\Sample Work\Employee-Management\EmployeeManagement\EmployeeManagement\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\sandu\OneDrive\Desktop\Sandun\Sample Work\Employee-Management\EmployeeManagement\EmployeeManagement\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+C:\Users\sandu\OneDrive\Desktop\Sandun\Sample Work\Employee-Management\EmployeeManagement\EmployeeManagement\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
