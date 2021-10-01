@@ -1,8 +1,10 @@
 using EmployeeManagement.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -35,7 +37,11 @@ namespace EmployeeManagement
                 options.Password.RequiredLength = 8;
             }).AddEntityFrameworkStores<AppDbContext>();
 
-            services.AddMvc(options => options.EnableEndpointRouting = false).AddXmlSerializerFormatters();
+            services.AddMvc(options => {
+                var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+                options.Filters.Add(new AuthorizeFilter(policy));
+                options.EnableEndpointRouting = false;
+            }).AddXmlSerializerFormatters();
             services.AddScoped<IEmployeeRepository, SQLEmployeeRepository>();
         }
 
