@@ -27,5 +27,7 @@ namespace EmployeeManagement.ViewModels
 
         public string ConfirmPassword { get; set; }
 
+        public string City { get; set; }
+
     }
 }
