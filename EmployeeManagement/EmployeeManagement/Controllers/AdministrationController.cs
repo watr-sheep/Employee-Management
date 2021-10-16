@@ -57,6 +57,13 @@ namespace EmployeeManagement.Controllers
         }
 
         [HttpGet]
+        public IActionResult ListUsers()
+        {
+            var users = userManager.Users;
+            return View(users);
+        }
+
+        [HttpGet]
         public IActionResult ListRoles()
         {
             var roles = roleManager.Roles;
