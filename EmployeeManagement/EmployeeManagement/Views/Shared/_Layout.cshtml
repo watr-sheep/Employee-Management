@@ -13,13 +13,18 @@
     </environment>
     <environment exclude="Development">
         <!-- CSS only -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
               integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"
               asp-fallback-href="~/lib/bootstrap/css/bootstrap.min.css"
               asp-fallback-test-class="sr-only"
               asp-fallback-test-property="position"
               asp-fallback-test-value="absolute"
-              asp-suppress-fallback-integrity="true">        
+              asp-suppress-fallback-integrity="true">
+
+        <script src="~/lib/jquery/jquery.min.js"></script>
+        <script src="~/lib/jquery-validate/jquery.validate.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+        <script src="~/lib/bootstrap/js/bootstrap.js"></script>
     </environment>
     <link href="~/css/site.css" rel="stylesheet" />
     <title>@ViewBag.Title</title>
