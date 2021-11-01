@@ -43,6 +43,11 @@ namespace EmployeeManagement
                 options.EnableEndpointRouting = false;
             }).AddXmlSerializerFormatters();
 
+            services.ConfigureApplicationCookie(Options => 
+            {
+                Options.AccessDeniedPath = new PathString("Administration/AccessDenied");
+            });
+
             services.AddAuthorization(options =>
             {
                 options.AddPolicy("DeleteRolePolicy",
