@@ -45,7 +45,7 @@ namespace EmployeeManagement
 
             services.ConfigureApplicationCookie(Options => 
             {
-                Options.AccessDeniedPath = new PathString("Administration/AccessDenied");
+                Options.AccessDeniedPath = new PathString("/Administration/AccessDenied");
             });
 
             services.AddAuthorization(options =>
