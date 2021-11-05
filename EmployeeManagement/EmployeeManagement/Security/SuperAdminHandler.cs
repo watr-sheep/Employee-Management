@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeManagement.Security
 {
-    public class SuperAdminHandler :
-    AuthorizationHandler<ManageAdminRolesAndClaimsRequirement>
+    public class SuperAdminHandler : AuthorizationHandler<ManageAdminRolesAndClaimsRequirement>
     {
         protected override Task HandleRequirementAsync(
             AuthorizationHandlerContext context,
